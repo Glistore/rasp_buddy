@@ -1,0 +1,545 @@
+[0.000000] (-) TimerEvent: {}
+[0.001598] (hoverboard_driver) JobQueued: {'identifier': 'hoverboard_driver', 'dependencies': OrderedDict()}
+[0.002105] (hoverboard_driver) JobStarted: {'identifier': 'hoverboard_driver'}
+[0.046470] (hoverboard_driver) JobProgress: {'identifier': 'hoverboard_driver', 'progress': 'cmake'}
+[0.048402] (hoverboard_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/rasp/ros2_ws/src/hoverboard-driver-humble', '-DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/hoverboard_driver'], 'cwd': '/home/rasp/ros2_ws/build/hoverboard_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rasp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rasp'), ('OLDPWD', '/home/rasp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f7e65f95b1687cd42ecd761067439d2f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rasp'), ('_', '/home/rasp/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rasp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rasp/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rasp-desktop:@/tmp/.ICE-unix/1613,unix/rasp-desktop:/tmp/.ICE-unix/1613'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/01b6ef16_7c3c_400b_9a10_5dc696529404'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HL87X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rasp/ros2_ws/build/hoverboard_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f7e65f95b1687cd42ecd761067439d2f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098624] (-) TimerEvent: {}
+[0.199634] (-) TimerEvent: {}
+[0.300439] (-) TimerEvent: {}
+[0.373640] (hoverboard_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.400638] (-) TimerEvent: {}
+[0.406338] (hoverboard_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500889] (-) TimerEvent: {}
+[0.602203] (-) TimerEvent: {}
+[0.703285] (-) TimerEvent: {}
+[0.773280] (hoverboard_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.799091] (hoverboard_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.800388] (hoverboard_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.802309] (hoverboard_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.803231] (-) TimerEvent: {}
+[0.857691] (hoverboard_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.903451] (-) TimerEvent: {}
+[1.004253] (-) TimerEvent: {}
+[1.105069] (-) TimerEvent: {}
+[1.205844] (-) TimerEvent: {}
+[1.306764] (-) TimerEvent: {}
+[1.407589] (-) TimerEvent: {}
+[1.508489] (-) TimerEvent: {}
+[1.609158] (-) TimerEvent: {}
+[1.709872] (-) TimerEvent: {}
+[1.810750] (-) TimerEvent: {}
+[1.911467] (-) TimerEvent: {}
+[2.012338] (-) TimerEvent: {}
+[2.113494] (-) TimerEvent: {}
+[2.214233] (-) TimerEvent: {}
+[2.314963] (-) TimerEvent: {}
+[2.415708] (-) TimerEvent: {}
+[2.516380] (-) TimerEvent: {}
+[2.617085] (-) TimerEvent: {}
+[2.717351] (hoverboard_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.718025] (-) TimerEvent: {}
+[2.818788] (-) TimerEvent: {}
+[2.919487] (-) TimerEvent: {}
+[3.020459] (-) TimerEvent: {}
+[3.121742] (-) TimerEvent: {}
+[3.222476] (-) TimerEvent: {}
+[3.323658] (-) TimerEvent: {}
+[3.424410] (-) TimerEvent: {}
+[3.464468] (hoverboard_driver) StdoutLine: {'line': b'-- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[3.524613] (-) TimerEvent: {}
+[3.625395] (-) TimerEvent: {}
+[3.726069] (-) TimerEvent: {}
+[3.826788] (-) TimerEvent: {}
+[3.927467] (-) TimerEvent: {}
+[3.944026] (hoverboard_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.007123] (hoverboard_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.027640] (-) TimerEvent: {}
+[4.101063] (hoverboard_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.127822] (-) TimerEvent: {}
+[4.219261] (hoverboard_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.227974] (-) TimerEvent: {}
+[4.328711] (-) TimerEvent: {}
+[4.378457] (hoverboard_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.428886] (-) TimerEvent: {}
+[4.529687] (-) TimerEvent: {}
+[4.630487] (-) TimerEvent: {}
+[4.731234] (-) TimerEvent: {}
+[4.832023] (-) TimerEvent: {}
+[4.932771] (-) TimerEvent: {}
+[5.033494] (-) TimerEvent: {}
+[5.134289] (-) TimerEvent: {}
+[5.235104] (-) TimerEvent: {}
+[5.335938] (-) TimerEvent: {}
+[5.436650] (-) TimerEvent: {}
+[5.537436] (-) TimerEvent: {}
+[5.638196] (-) TimerEvent: {}
+[5.738901] (-) TimerEvent: {}
+[5.839623] (-) TimerEvent: {}
+[5.940322] (-) TimerEvent: {}
+[6.041025] (-) TimerEvent: {}
+[6.141703] (-) TimerEvent: {}
+[6.185902] (hoverboard_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.219433] (hoverboard_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.241914] (-) TimerEvent: {}
+[6.342611] (-) TimerEvent: {}
+[6.443464] (-) TimerEvent: {}
+[6.473314] (hoverboard_driver) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.543662] (-) TimerEvent: {}
+[6.644753] (-) TimerEvent: {}
+[6.745623] (-) TimerEvent: {}
+[6.754183] (hoverboard_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.775620] (hoverboard_driver) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.845815] (-) TimerEvent: {}
+[6.855100] (hoverboard_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.871909] (hoverboard_driver) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.907415] (hoverboard_driver) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.944869] (hoverboard_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.945917] (-) TimerEvent: {}
+[7.046543] (-) TimerEvent: {}
+[7.060665] (hoverboard_driver) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[7.146743] (-) TimerEvent: {}
+[7.247467] (-) TimerEvent: {}
+[7.348269] (-) TimerEvent: {}
+[7.449058] (-) TimerEvent: {}
+[7.528466] (hoverboard_driver) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[7.529439] (hoverboard_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.549271] (-) TimerEvent: {}
+[7.650068] (-) TimerEvent: {}
+[7.750890] (-) TimerEvent: {}
+[7.851648] (-) TimerEvent: {}
+[7.952479] (-) TimerEvent: {}
+[7.960684] (hoverboard_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.965922] (hoverboard_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.052732] (-) TimerEvent: {}
+[8.153655] (-) TimerEvent: {}
+[8.254371] (-) TimerEvent: {}
+[8.329740] (hoverboard_driver) StdoutLine: {'line': b'-- Found control_toolbox: 3.3.0 (/opt/ros/humble/share/control_toolbox/cmake)\n'}
+[8.354542] (-) TimerEvent: {}
+[8.455260] (-) TimerEvent: {}
+[8.549467] (hoverboard_driver) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[8.555419] (-) TimerEvent: {}
+[8.656092] (-) TimerEvent: {}
+[8.756776] (-) TimerEvent: {}
+[8.824110] (hoverboard_driver) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[8.857082] (-) TimerEvent: {}
+[8.957932] (-) TimerEvent: {}
+[9.058616] (-) TimerEvent: {}
+[9.159325] (-) TimerEvent: {}
+[9.176920] (hoverboard_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.259502] (-) TimerEvent: {}
+[9.360307] (-) TimerEvent: {}
+[9.461150] (-) TimerEvent: {}
+[9.512424] (hoverboard_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[9.533451] (hoverboard_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/rasp/ros2_ws/build/hoverboard_driver\n'}
+[9.561439] (-) TimerEvent: {}
+[9.573909] (hoverboard_driver) CommandEnded: {'returncode': 0}
+[9.576251] (hoverboard_driver) JobProgress: {'identifier': 'hoverboard_driver', 'progress': 'build'}
+[9.581053] (hoverboard_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp/ros2_ws/build/hoverboard_driver', '--', '-j4', '-l4'], 'cwd': '/home/rasp/ros2_ws/build/hoverboard_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rasp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rasp'), ('OLDPWD', '/home/rasp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f7e65f95b1687cd42ecd761067439d2f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rasp'), ('_', '/home/rasp/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rasp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rasp/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rasp-desktop:@/tmp/.ICE-unix/1613,unix/rasp-desktop:/tmp/.ICE-unix/1613'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/01b6ef16_7c3c_400b_9a10_5dc696529404'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HL87X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rasp/ros2_ws/build/hoverboard_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f7e65f95b1687cd42ecd761067439d2f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.661636] (-) TimerEvent: {}
+[9.762349] (-) TimerEvent: {}
+[9.815965] (hoverboard_driver) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/hoverboard_driver.dir/hardware/hoverboard_driver.cpp.o\x1b[0m\n'}
+[9.818503] (hoverboard_driver) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hoverboard_driver.dir/hardware/pid.cpp.o\x1b[0m\n'}
+[9.862584] (-) TimerEvent: {}
+[9.963858] (-) TimerEvent: {}
+[10.064618] (-) TimerEvent: {}
+[10.165463] (-) TimerEvent: {}
+[10.266171] (-) TimerEvent: {}
+[10.366870] (-) TimerEvent: {}
+[10.467567] (-) TimerEvent: {}
+[10.568385] (-) TimerEvent: {}
+[10.669100] (-) TimerEvent: {}
+[10.769913] (-) TimerEvent: {}
+[10.870639] (-) TimerEvent: {}
+[10.971414] (-) TimerEvent: {}
+[11.072230] (-) TimerEvent: {}
+[11.172935] (-) TimerEvent: {}
+[11.273629] (-) TimerEvent: {}
+[11.374351] (-) TimerEvent: {}
+[11.475391] (-) TimerEvent: {}
+[11.576198] (-) TimerEvent: {}
+[11.676960] (-) TimerEvent: {}
+[11.777942] (-) TimerEvent: {}
+[11.878689] (-) TimerEvent: {}
+[11.979474] (-) TimerEvent: {}
+[12.080254] (-) TimerEvent: {}
+[12.181598] (-) TimerEvent: {}
+[12.282370] (-) TimerEvent: {}
+[12.383462] (-) TimerEvent: {}
+[12.484264] (-) TimerEvent: {}
+[12.585521] (-) TimerEvent: {}
+[12.686476] (-) TimerEvent: {}
+[12.787281] (-) TimerEvent: {}
+[12.888012] (-) TimerEvent: {}
+[12.988790] (-) TimerEvent: {}
+[13.089650] (-) TimerEvent: {}
+[13.190376] (-) TimerEvent: {}
+[13.291304] (-) TimerEvent: {}
+[13.392019] (-) TimerEvent: {}
+[13.492783] (-) TimerEvent: {}
+[13.593593] (-) TimerEvent: {}
+[13.694559] (-) TimerEvent: {}
+[13.795374] (-) TimerEvent: {}
+[13.896162] (-) TimerEvent: {}
+[13.996888] (-) TimerEvent: {}
+[14.097667] (-) TimerEvent: {}
+[14.198447] (-) TimerEvent: {}
+[14.299364] (-) TimerEvent: {}
+[14.400289] (-) TimerEvent: {}
+[14.501074] (-) TimerEvent: {}
+[14.601861] (-) TimerEvent: {}
+[14.702613] (-) TimerEvent: {}
+[14.803468] (-) TimerEvent: {}
+[14.904164] (-) TimerEvent: {}
+[15.004952] (-) TimerEvent: {}
+[15.106103] (-) TimerEvent: {}
+[15.207157] (-) TimerEvent: {}
+[15.307933] (-) TimerEvent: {}
+[15.408708] (-) TimerEvent: {}
+[15.509490] (-) TimerEvent: {}
+[15.610348] (-) TimerEvent: {}
+[15.711554] (-) TimerEvent: {}
+[15.812295] (-) TimerEvent: {}
+[15.913097] (-) TimerEvent: {}
+[16.013853] (-) TimerEvent: {}
+[16.114827] (-) TimerEvent: {}
+[16.215625] (-) TimerEvent: {}
+[16.316397] (-) TimerEvent: {}
+[16.417233] (-) TimerEvent: {}
+[16.518028] (-) TimerEvent: {}
+[16.618889] (-) TimerEvent: {}
+[16.719995] (-) TimerEvent: {}
+[16.820996] (-) TimerEvent: {}
+[16.922085] (-) TimerEvent: {}
+[17.023011] (-) TimerEvent: {}
+[17.124175] (-) TimerEvent: {}
+[17.225198] (-) TimerEvent: {}
+[17.326164] (-) TimerEvent: {}
+[17.427124] (-) TimerEvent: {}
+[17.528349] (-) TimerEvent: {}
+[17.629306] (-) TimerEvent: {}
+[17.730264] (-) TimerEvent: {}
+[17.831334] (-) TimerEvent: {}
+[17.932297] (-) TimerEvent: {}
+[18.033358] (-) TimerEvent: {}
+[18.134307] (-) TimerEvent: {}
+[18.235430] (-) TimerEvent: {}
+[18.336419] (-) TimerEvent: {}
+[18.437349] (-) TimerEvent: {}
+[18.538255] (-) TimerEvent: {}
+[18.639262] (-) TimerEvent: {}
+[18.740313] (-) TimerEvent: {}
+[18.841364] (-) TimerEvent: {}
+[18.942362] (-) TimerEvent: {}
+[19.044051] (-) TimerEvent: {}
+[19.145025] (-) TimerEvent: {}
+[19.245898] (-) TimerEvent: {}
+[19.346934] (-) TimerEvent: {}
+[19.447819] (-) TimerEvent: {}
+[19.548697] (-) TimerEvent: {}
+[19.649589] (-) TimerEvent: {}
+[19.750514] (-) TimerEvent: {}
+[19.851503] (-) TimerEvent: {}
+[19.952631] (-) TimerEvent: {}
+[20.053574] (-) TimerEvent: {}
+[20.154656] (-) TimerEvent: {}
+[20.255733] (-) TimerEvent: {}
+[20.356609] (-) TimerEvent: {}
+[20.457600] (-) TimerEvent: {}
+[20.558590] (-) TimerEvent: {}
+[20.659593] (-) TimerEvent: {}
+[20.761663] (-) TimerEvent: {}
+[20.863981] (-) TimerEvent: {}
+[20.965354] (-) TimerEvent: {}
+[21.066179] (-) TimerEvent: {}
+[21.167252] (-) TimerEvent: {}
+[21.268215] (-) TimerEvent: {}
+[21.369318] (-) TimerEvent: {}
+[21.470359] (-) TimerEvent: {}
+[21.571500] (-) TimerEvent: {}
+[21.673138] (-) TimerEvent: {}
+[21.774689] (-) TimerEvent: {}
+[21.875640] (-) TimerEvent: {}
+[21.976731] (-) TimerEvent: {}
+[22.077633] (-) TimerEvent: {}
+[22.178493] (-) TimerEvent: {}
+[22.279410] (-) TimerEvent: {}
+[22.380447] (-) TimerEvent: {}
+[22.481428] (-) TimerEvent: {}
+[22.582400] (-) TimerEvent: {}
+[22.683357] (-) TimerEvent: {}
+[22.784387] (-) TimerEvent: {}
+[22.885570] (-) TimerEvent: {}
+[22.986463] (-) TimerEvent: {}
+[23.087397] (-) TimerEvent: {}
+[23.188312] (-) TimerEvent: {}
+[23.289158] (-) TimerEvent: {}
+[23.390092] (-) TimerEvent: {}
+[23.491012] (-) TimerEvent: {}
+[23.592104] (-) TimerEvent: {}
+[23.692995] (-) TimerEvent: {}
+[23.793904] (-) TimerEvent: {}
+[23.894910] (-) TimerEvent: {}
+[23.995816] (-) TimerEvent: {}
+[24.096817] (-) TimerEvent: {}
+[24.197758] (-) TimerEvent: {}
+[24.298811] (-) TimerEvent: {}
+[24.399915] (-) TimerEvent: {}
+[24.501251] (-) TimerEvent: {}
+[24.602203] (-) TimerEvent: {}
+[24.703201] (-) TimerEvent: {}
+[24.804172] (-) TimerEvent: {}
+[24.905166] (-) TimerEvent: {}
+[25.006061] (-) TimerEvent: {}
+[25.106954] (-) TimerEvent: {}
+[25.207815] (-) TimerEvent: {}
+[25.308643] (-) TimerEvent: {}
+[25.409668] (-) TimerEvent: {}
+[25.510828] (-) TimerEvent: {}
+[25.611859] (-) TimerEvent: {}
+[25.713339] (-) TimerEvent: {}
+[25.815497] (-) TimerEvent: {}
+[25.916292] (-) TimerEvent: {}
+[26.017085] (-) TimerEvent: {}
+[26.117921] (-) TimerEvent: {}
+[26.218776] (-) TimerEvent: {}
+[26.319586] (-) TimerEvent: {}
+[26.420371] (-) TimerEvent: {}
+[26.521187] (-) TimerEvent: {}
+[26.621981] (-) TimerEvent: {}
+[26.722803] (-) TimerEvent: {}
+[26.823686] (-) TimerEvent: {}
+[26.924468] (-) TimerEvent: {}
+[27.025318] (-) TimerEvent: {}
+[27.126103] (-) TimerEvent: {}
+[27.226912] (-) TimerEvent: {}
+[27.327733] (-) TimerEvent: {}
+[27.428466] (-) TimerEvent: {}
+[27.529234] (-) TimerEvent: {}
+[27.630016] (-) TimerEvent: {}
+[27.730832] (-) TimerEvent: {}
+[27.744471] (hoverboard_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasp/ros2_ws/src/hoverboard-driver-humble/hardware/hoverboard_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type hoverboard_driver::hoverboard_driver::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[27.747007] (hoverboard_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasp/ros2_ws/src/hoverboard-driver-humble/hardware/hoverboard_driver.cpp:328:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.747562] (hoverboard_driver) StderrLine: {'line': b'  328 | st rclcpp::Time &time, \x1b[01;35m\x1b[Kconst rclcpp::Duration &period\x1b[m\x1b[K)\n'}
+[27.747978] (hoverboard_driver) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[27.748347] (hoverboard_driver) StderrLine: {'line': b'\n'}
+[27.757221] (hoverboard_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasp/ros2_ws/src/hoverboard-driver-humble/hardware/hoverboard_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type hoverboard_driver::hoverboard_driver::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[27.758417] (hoverboard_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasp/ros2_ws/src/hoverboard-driver-humble/hardware/hoverboard_driver.cpp:451:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kpid_outputs\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.759304] (hoverboard_driver) StderrLine: {'line': b'  451 |     double \x1b[01;35m\x1b[Kpid_outputs\x1b[m\x1b[K[2];\n'}
+[27.759972] (hoverboard_driver) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.760643] (hoverboard_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rasp/ros2_ws/src/hoverboard-driver-humble/hardware/hoverboard_driver.cpp:429:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.761316] (hoverboard_driver) StderrLine: {'line': b'  429 |       \x1b[01;35m\x1b[Kconst rclcpp::Time &time\x1b[m\x1b[K, const rclcpp::Duration &period)\n'}
+[27.762073] (hoverboard_driver) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[27.831029] (-) TimerEvent: {}
+[27.931851] (-) TimerEvent: {}
+[28.032731] (-) TimerEvent: {}
+[28.133502] (-) TimerEvent: {}
+[28.234290] (-) TimerEvent: {}
+[28.335160] (-) TimerEvent: {}
+[28.435968] (-) TimerEvent: {}
+[28.536758] (-) TimerEvent: {}
+[28.637522] (-) TimerEvent: {}
+[28.738313] (-) TimerEvent: {}
+[28.839159] (-) TimerEvent: {}
+[28.939984] (-) TimerEvent: {}
+[29.040761] (-) TimerEvent: {}
+[29.141551] (-) TimerEvent: {}
+[29.242350] (-) TimerEvent: {}
+[29.343196] (-) TimerEvent: {}
+[29.444023] (-) TimerEvent: {}
+[29.544988] (-) TimerEvent: {}
+[29.645735] (-) TimerEvent: {}
+[29.746509] (-) TimerEvent: {}
+[29.847337] (-) TimerEvent: {}
+[29.948167] (-) TimerEvent: {}
+[30.049079] (-) TimerEvent: {}
+[30.150137] (-) TimerEvent: {}
+[30.250908] (-) TimerEvent: {}
+[30.351731] (-) TimerEvent: {}
+[30.452497] (-) TimerEvent: {}
+[30.553291] (-) TimerEvent: {}
+[30.654092] (-) TimerEvent: {}
+[30.754882] (-) TimerEvent: {}
+[30.855714] (-) TimerEvent: {}
+[30.956482] (-) TimerEvent: {}
+[31.057282] (-) TimerEvent: {}
+[31.158080] (-) TimerEvent: {}
+[31.258880] (-) TimerEvent: {}
+[31.359696] (-) TimerEvent: {}
+[31.460492] (-) TimerEvent: {}
+[31.561355] (-) TimerEvent: {}
+[31.662099] (-) TimerEvent: {}
+[31.762885] (-) TimerEvent: {}
+[31.863698] (-) TimerEvent: {}
+[31.964464] (-) TimerEvent: {}
+[32.065245] (-) TimerEvent: {}
+[32.166038] (-) TimerEvent: {}
+[32.266939] (-) TimerEvent: {}
+[32.367950] (-) TimerEvent: {}
+[32.468727] (-) TimerEvent: {}
+[32.569480] (-) TimerEvent: {}
+[32.670287] (-) TimerEvent: {}
+[32.771142] (-) TimerEvent: {}
+[32.872009] (-) TimerEvent: {}
+[32.972873] (-) TimerEvent: {}
+[33.073825] (-) TimerEvent: {}
+[33.175422] (-) TimerEvent: {}
+[33.276237] (-) TimerEvent: {}
+[33.377041] (-) TimerEvent: {}
+[33.477875] (-) TimerEvent: {}
+[33.578852] (-) TimerEvent: {}
+[33.679713] (-) TimerEvent: {}
+[33.780485] (-) TimerEvent: {}
+[33.881263] (-) TimerEvent: {}
+[33.982020] (-) TimerEvent: {}
+[34.082884] (-) TimerEvent: {}
+[34.183671] (-) TimerEvent: {}
+[34.284457] (-) TimerEvent: {}
+[34.385336] (-) TimerEvent: {}
+[34.486122] (-) TimerEvent: {}
+[34.586891] (-) TimerEvent: {}
+[34.687655] (-) TimerEvent: {}
+[34.788429] (-) TimerEvent: {}
+[34.889193] (-) TimerEvent: {}
+[34.989929] (-) TimerEvent: {}
+[35.091248] (-) TimerEvent: {}
+[35.191990] (-) TimerEvent: {}
+[35.292805] (-) TimerEvent: {}
+[35.393541] (-) TimerEvent: {}
+[35.494374] (-) TimerEvent: {}
+[35.595147] (-) TimerEvent: {}
+[35.695901] (-) TimerEvent: {}
+[35.796630] (-) TimerEvent: {}
+[35.897465] (-) TimerEvent: {}
+[35.998207] (-) TimerEvent: {}
+[36.098959] (-) TimerEvent: {}
+[36.199722] (-) TimerEvent: {}
+[36.300432] (-) TimerEvent: {}
+[36.401181] (-) TimerEvent: {}
+[36.501971] (-) TimerEvent: {}
+[36.602852] (-) TimerEvent: {}
+[36.703619] (-) TimerEvent: {}
+[36.804460] (-) TimerEvent: {}
+[36.905219] (-) TimerEvent: {}
+[37.005982] (-) TimerEvent: {}
+[37.106833] (-) TimerEvent: {}
+[37.207591] (-) TimerEvent: {}
+[37.308312] (-) TimerEvent: {}
+[37.409097] (-) TimerEvent: {}
+[37.509868] (-) TimerEvent: {}
+[37.610634] (-) TimerEvent: {}
+[37.711457] (-) TimerEvent: {}
+[37.812216] (-) TimerEvent: {}
+[37.912990] (-) TimerEvent: {}
+[38.013805] (-) TimerEvent: {}
+[38.114573] (-) TimerEvent: {}
+[38.215411] (-) TimerEvent: {}
+[38.316139] (-) TimerEvent: {}
+[38.416880] (-) TimerEvent: {}
+[38.517662] (-) TimerEvent: {}
+[38.618369] (-) TimerEvent: {}
+[38.719199] (-) TimerEvent: {}
+[38.819962] (-) TimerEvent: {}
+[38.920738] (-) TimerEvent: {}
+[39.021497] (-) TimerEvent: {}
+[39.122288] (-) TimerEvent: {}
+[39.223144] (-) TimerEvent: {}
+[39.323899] (-) TimerEvent: {}
+[39.424665] (-) TimerEvent: {}
+[39.525421] (-) TimerEvent: {}
+[39.626151] (-) TimerEvent: {}
+[39.726969] (-) TimerEvent: {}
+[39.828187] (-) TimerEvent: {}
+[39.929041] (-) TimerEvent: {}
+[40.029813] (-) TimerEvent: {}
+[40.130543] (-) TimerEvent: {}
+[40.231337] (-) TimerEvent: {}
+[40.332056] (-) TimerEvent: {}
+[40.432763] (-) TimerEvent: {}
+[40.533555] (-) TimerEvent: {}
+[40.634303] (-) TimerEvent: {}
+[40.735154] (-) TimerEvent: {}
+[40.835878] (-) TimerEvent: {}
+[40.936604] (-) TimerEvent: {}
+[41.037318] (-) TimerEvent: {}
+[41.138162] (-) TimerEvent: {}
+[41.239203] (-) TimerEvent: {}
+[41.340325] (-) TimerEvent: {}
+[41.441910] (-) TimerEvent: {}
+[41.500619] (hoverboard_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libhoverboard_driver.so\x1b[0m\n'}
+[41.542166] (-) TimerEvent: {}
+[41.642979] (-) TimerEvent: {}
+[41.743874] (-) TimerEvent: {}
+[41.845179] (-) TimerEvent: {}
+[41.946056] (-) TimerEvent: {}
+[42.046962] (-) TimerEvent: {}
+[42.147651] (-) TimerEvent: {}
+[42.248544] (-) TimerEvent: {}
+[42.349528] (-) TimerEvent: {}
+[42.450298] (-) TimerEvent: {}
+[42.551170] (-) TimerEvent: {}
+[42.662378] (-) TimerEvent: {}
+[42.763754] (-) TimerEvent: {}
+[42.865100] (-) TimerEvent: {}
+[42.966018] (-) TimerEvent: {}
+[43.066959] (-) TimerEvent: {}
+[43.168021] (-) TimerEvent: {}
+[43.268777] (-) TimerEvent: {}
+[43.369449] (-) TimerEvent: {}
+[43.470241] (-) TimerEvent: {}
+[43.571386] (-) TimerEvent: {}
+[43.672152] (-) TimerEvent: {}
+[43.772838] (-) TimerEvent: {}
+[43.813612] (hoverboard_driver) StdoutLine: {'line': b'[100%] Built target hoverboard_driver\n'}
+[43.857974] (hoverboard_driver) CommandEnded: {'returncode': 0}
+[43.864731] (hoverboard_driver) JobProgress: {'identifier': 'hoverboard_driver', 'progress': 'install'}
+[43.873031] (-) TimerEvent: {}
+[43.901607] (hoverboard_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp/ros2_ws/build/hoverboard_driver'], 'cwd': '/home/rasp/ros2_ws/build/hoverboard_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:pt:en'), ('USER', 'rasp'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rasp'), ('OLDPWD', '/home/rasp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f7e65f95b1687cd42ecd761067439d2f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rasp'), ('_', '/home/rasp/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rasp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rasp/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rasp-desktop:@/tmp/.ICE-unix/1613,unix/rasp-desktop:/tmp/.ICE-unix/1613'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/01b6ef16_7c3c_400b_9a10_5dc696529404'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HL87X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rasp/ros2_ws/build/hoverboard_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f7e65f95b1687cd42ecd761067439d2f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[43.941440] (hoverboard_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[43.942348] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/hoverboard_driver.xml\n'}
+[43.943868] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver\n'}
+[43.944553] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver\n'}
+[43.945210] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/hoverboard_driver.hpp\n'}
+[43.946492] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/protocol.hpp\n'}
+[43.947652] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/pid.hpp\n'}
+[43.948780] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/config.hpp\n'}
+[43.949992] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/launch\n'}
+[43.950682] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/launch/view_robot.launch.py\n'}
+[43.951897] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/ros2_control\n'}
+[43.952562] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/ros2_control/hoverboard_driver.ros2_control.xacro\n'}
+[43.953614] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/urdf\n'}
+[43.954238] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot_description.urdf.xacro\n'}
+[43.955420] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.urdf.xacro\n'}
+[43.956405] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.materials.xacro\n'}
+[43.957526] (hoverboard_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/launch\n'}
+[43.958036] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/launch/diffbot.launch.py\n'}
+[43.958974] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/config\n'}
+[43.959617] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/config/hoverboard_controllers.yaml\n'}
+[43.961166] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/lib/libhoverboard_driver.so\n'}
+[43.973192] (-) TimerEvent: {}
+[43.982210] (hoverboard_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/rasp/ros2_ws/install/hoverboard_driver/lib/libhoverboard_driver.so" to ""\n'}
+[43.982903] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.sh\n'}
+[43.987893] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.dsv\n'}
+[43.990224] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/ament_index/resource_index/package_run_dependencies/hoverboard_driver\n'}
+[43.992535] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/ament_index/resource_index/parent_prefix_path/hoverboard_driver\n'}
+[43.994350] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.sh\n'}
+[43.996729] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.dsv\n'}
+[43.999020] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/path.sh\n'}
+[44.001470] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/path.dsv\n'}
+[44.004035] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.bash\n'}
+[44.006179] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.sh\n'}
+[44.008560] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.zsh\n'}
+[44.010614] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.dsv\n'}
+[44.013788] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/package.dsv\n'}
+[44.016734] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/ament_index/resource_index/packages/hoverboard_driver\n'}
+[44.018927] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hoverboard_driver\n'}
+[44.021401] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport.cmake\n'}
+[44.023897] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport-noconfig.cmake\n'}
+[44.025861] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[44.027800] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[44.029895] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig.cmake\n'}
+[44.031771] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig-version.cmake\n'}
+[44.033603] (hoverboard_driver) StdoutLine: {'line': b'-- Installing: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/package.xml\n'}
+[44.040277] (hoverboard_driver) CommandEnded: {'returncode': 0}
+[44.073576] (-) TimerEvent: {}
+[44.150257] (hoverboard_driver) JobEnded: {'identifier': 'hoverboard_driver', 'rc': 0}
+[44.153130] (-) EventReactorShutdown: {}

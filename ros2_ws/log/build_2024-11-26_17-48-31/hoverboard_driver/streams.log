@@ -1,0 +1,66 @@
+[0.124s] Invoking command in '/home/rasp/ros2_ws/build/hoverboard_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rasp/ros2_ws/src/hoverboard-driver-humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/hoverboard_driver
+[0.435s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.198s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.315s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.696s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.741s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.841s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.930s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.031s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.422s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.437s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.599s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.663s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.763s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.798s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.835s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.166s] -- Found control_toolbox: 3.3.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[4.287s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.398s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.833s] -- Configuring done
+[5.253s] -- Generating done
+[5.298s] -- Build files have been written to: /home/rasp/ros2_ws/build/hoverboard_driver
+[5.358s] Invoked command in '/home/rasp/ros2_ws/build/hoverboard_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rasp/ros2_ws/src/hoverboard-driver-humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rasp/ros2_ws/install/hoverboard_driver
+[5.369s] Invoking command in '/home/rasp/ros2_ws/build/hoverboard_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rasp/ros2_ws/build/hoverboard_driver -- -j4 -l4
+[5.606s] [35m[1mConsolidate compiler generated dependencies of target hoverboard_driver[0m
+[5.981s] [100%] Built target hoverboard_driver
+[6.022s] Invoked command in '/home/rasp/ros2_ws/build/hoverboard_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rasp/ros2_ws/build/hoverboard_driver -- -j4 -l4
+[6.062s] Invoking command in '/home/rasp/ros2_ws/build/hoverboard_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rasp/ros2_ws/build/hoverboard_driver
+[6.092s] -- Install configuration: ""
+[6.094s] -- Execute custom install script
+[6.095s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver//hoverboard_driver.xml
+[6.133s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/config.hpp
+[6.173s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/hoverboard_driver.hpp
+[6.206s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/pid.hpp
+[6.238s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/protocol.hpp
+[6.278s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/launch/view_robot.launch.py
+[6.316s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/ros2_control/hoverboard_driver.ros2_control.xacro
+[6.355s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.materials.xacro
+[6.390s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.urdf.xacro
+[6.424s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot_description.urdf.xacro
+[6.461s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/launch/diffbot.launch.py
+[6.504s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/config/hoverboard_controllers.yaml
+[6.544s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.sh
+[6.580s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.dsv
+[6.617s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/ament_index/resource_index/package_run_dependencies/hoverboard_driver
+[6.653s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/ament_index/resource_index/parent_prefix_path/hoverboard_driver
+[6.690s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.sh
+[6.724s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.dsv
+[6.765s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/path.sh
+[6.795s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/path.dsv
+[6.828s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.bash
+[6.861s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.sh
+[6.898s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.zsh
+[6.931s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.dsv
+[6.964s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/package.dsv
+[7.005s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/ament_index/resource_index/packages/hoverboard_driver
+[7.042s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hoverboard_driver
+[7.081s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_targets-extras.cmake
+[7.114s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.147s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig.cmake
+[7.183s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig-version.cmake
+[7.216s] -- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/package.xml
+[7.254s] -- Up-to-date: /home/rasp/ros2_ws/install/hoverboard_driver/lib/libhoverboard_driver.so
+[7.257s] -- Up-to-date: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport.cmake
+[7.258s] -- Up-to-date: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport-noconfig.cmake
+[7.264s] Invoked command in '/home/rasp/ros2_ws/build/hoverboard_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rasp/ros2_ws/build/hoverboard_driver

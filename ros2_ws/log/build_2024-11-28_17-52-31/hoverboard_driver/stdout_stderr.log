@@ -1,0 +1,60 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found control_toolbox: 3.3.0 (/opt/ros/humble/share/control_toolbox/cmake)
+-- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rasp/ros2_ws/build/hoverboard_driver
+[35m[1mConsolidate compiler generated dependencies of target hoverboard_driver[0m
+[100%] Built target hoverboard_driver
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver//hoverboard_driver.xml
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/config.hpp
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/hoverboard_driver.hpp
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/pid.hpp
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/include/hoverboard_driver/hoverboard_driver/protocol.hpp
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/launch/view_robot.launch.py
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/ros2_control/hoverboard_driver.ros2_control.xacro
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.materials.xacro
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot.urdf.xacro
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/urdf/diffbot_description.urdf.xacro
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/launch/diffbot.launch.py
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/config/hoverboard_controllers.yaml
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.sh
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/library_path.dsv
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/ament_index/resource_index/package_run_dependencies/hoverboard_driver
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/ament_index/resource_index/parent_prefix_path/hoverboard_driver
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/path.sh
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/environment/path.dsv
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.bash
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.sh
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.zsh
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/local_setup.dsv
+-- Symlinking: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/package.dsv
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/ament_index/resource_index/packages/hoverboard_driver
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hoverboard_driver
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig.cmake
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/hoverboard_driverConfig-version.cmake
+-- Up-to-date symlink: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/package.xml
+-- Up-to-date: /home/rasp/ros2_ws/install/hoverboard_driver/lib/libhoverboard_driver.so
+-- Up-to-date: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport.cmake
+-- Up-to-date: /home/rasp/ros2_ws/install/hoverboard_driver/share/hoverboard_driver/cmake/export_hoverboard_driverExport-noconfig.cmake
